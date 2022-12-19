@@ -16,6 +16,9 @@
         <img src="logo.png" class="imagen_subhome">
       </a>
     </div>
+    <a href="./index.php">Home</a>
+    <a href="./cursos.php">Cursos</a>
+    <a href="./idiomas.php">Idiomas</a>
   </div>
   <div class="subtitulo"><img id="subFoto" src="fraseIns.png">
   </div>
