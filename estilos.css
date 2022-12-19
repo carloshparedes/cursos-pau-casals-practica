@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -148,6 +149,9 @@
 }
 
 /* Contenedor de los cursos de idiomas */
+.titulo_principal{
+    font-size: 45px;
+}
 #contenedor_ingles1{
     padding: 30px;
     
@@ -268,7 +272,7 @@
     width: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 33, 33% 33, 33% 33, 33%;
+    grid-template-columns: 33%, 33%, 33%;
     grid-template-areas: 'it20 it20 it20'
         'it21 it22 it23'
         'it24 it25 it26'
@@ -435,3 +439,136 @@
     margin-left: 0%;
     margin-right: 50%;
 }
+
+@media screen and (max-width:900px) {
+     #contenedorIndex{
+    grid-template-columns: 50%, 50%;
+    grid-template-areas: 'it20 it20'
+        'it21 it22'
+        'it23 it24'
+        'it25 it26'
+    ;}
+    #contenedor_cursos1{
+    grid-template-columns: 50% 50%;
+    grid-template-areas:'it1 it1'
+        'it2 it2'
+        'it3 it3'
+        'it4 it4'
+        'it5 it5'
+        'it6 it6'
+        'it7 it7'
+        'it8 it8'
+        'it9 it9'
+        'it10 it10';
+}
+    .etiq{
+    padding:1px;
+    margin:2px 4px;
+    border-radius:3px;
+}
+        #logoUE{/*visibility: hidden;*/
+        display: none;}
+    #botonPre{
+    font-size:20px;
+    border-radius:10px;
+    }
+        #temarioBoton{
+    font-size:20px;
+  
+    border-radius:10px;
+    
+}
+    #contenedor_ingles1{
+    padding: 20px;
+    
+    
+    border-radius: 15px;
+    width:80%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:'it11 it12'
+                        'it13 it12'
+                        'it14 it12'
+                        'it15 it16'
+                        'it17 it17'
+                        'it18 it19'
+                        ;
+}
+    .etiq2{
+    
+    margin:2px 10px 2px 10px;
+    
+    
+    font-size:20px;
+}
+}
+@media screen and (max-width:500px) {
+    #contenedorIndex{
+        grid-template-columns: 100%;
+        grid-template-areas: 'it20'
+        'it21'
+        'it22'
+        'it23'
+        'it24'
+        'it25'
+        'it26'
+    ;}
+    #contenedor_cursos1{
+    grid-template-columns: 100%;
+    grid-template-areas:'it1'
+        'it2'
+        'it3'
+        'it4'
+        'it5'
+        'it6'
+        'it7'
+        'it8'
+        'it9'
+        'it10';
+}
+    .etiq{
+    padding:0px;
+    margin:2px 2px;
+    border-radius:2px;
+}
+    #logoUE{/*visibility: hidden;*/
+        display: none;}
+    #botonPre{
+    font-size:15px;
+    
+    border-radius:10px;
+}
+      #temarioBoton{
+    font-size:18px;
+  
+    border-radius:10px;
+    
+}
+    #contenedor_ingles1{
+    padding: 10px;
+    
+    
+    border-radius: 10px;
+    width:80%;
+    grid-template-columns: 100%;
+    grid-template-areas:'it11'
+                        'it13'
+                        'it14'
+                        'it15'
+                        'it16'
+                        'it17'
+                        'it18'
+                        'it19'
+                        ;
+}
+    #logoCambr{/*visibility: hidden;*/
+        display: none;}
+     .etiq2{
+    
+    margin:2px 10px 2px 10px;
+    
+    
+    font-size:20px;
+}
+}
+
+
