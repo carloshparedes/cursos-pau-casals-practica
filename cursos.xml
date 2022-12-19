@@ -41,8 +41,7 @@
   <cursos>
     <curso id="ERTE">
       <titulo>La Energía Solar En El Panorama Energético Actual</titulo>
-      <etiquetas>Teleformación , Teleformación , Teleformación desempleados que hayan estado en
-        ERTE.</etiquetas>
+      <etiquetas>Teleformación , Teleformación , desempleados que hayan estado en ERTE.</etiquetas>
       <foto>Erte.png</foto>
       <temario>Temario/energia_solar.pdf</temario>
       <inicio>17/01/2023</inicio>
@@ -51,8 +50,7 @@
     </curso>
     <curso id="ERTE">
       <titulo>Seguridad Informática Y Firma Digital</titulo>
-      <etiquetas>Teleformación , Teleformación , Teleformación desempleados que hayan estado en
-        ERTE.</etiquetas>
+      <etiquetas>Teleformación , Teleformación , desempleados que hayan estado en ERTE.</etiquetas>
       <foto>Erte.png</foto>
       <temario>Temario/seguridad_firma_digital.pdf</temario>
       <inicio>24/01/2023</inicio>
@@ -61,8 +59,7 @@
     </curso>
     <curso id="ERTE">
       <titulo>Programación En .Net</titulo>
-      <etiquetas>Teleformación , Teleformación , Teleformación desempleados que hayan estado en
-        ERTE.</etiquetas>
+      <etiquetas>Teleformación , Teleformación , desempleados que hayan estado en ERTE.</etiquetas>
       <foto>Erte.png</foto>
       <temario>Temario/programacion_net.pdf</temario>
       <inicio>31/01/2023</inicio>
@@ -71,8 +68,7 @@
     </curso>
     <curso id="ERTE">
       <titulo>Programación De Dispositivos Móviles</titulo>
-      <etiquetas>Teleformación , Teleformación , Teleformación desempleados que hayan estado en
-        ERTE.</etiquetas>
+      <etiquetas>Teleformación , Teleformación , desempleados que hayan estado en ERTE.</etiquetas>
       <foto>Erte.png</foto>
       <temario>Temario/pogramacion_dispositivos_moviles.pdf</temario>
       <inicio>14/02/2023</inicio>
@@ -81,8 +77,7 @@
     </curso>
     <curso id="ERTE">
       <titulo>Tutorización en teleformación</titulo>
-      <etiquetas>Teleformación , Teleformación , Teleformación desempleados que hayan estado en
-        ERTE.</etiquetas>
+      <etiquetas>Teleformación , Teleformación , desempleados que hayan estado en ERTE.</etiquetas>
       <foto>Erte.png</foto>
       <temario>Temario/tutorizacion_web.pdf</temario>
       <inicio>30/01/2023</inicio>
@@ -91,8 +86,7 @@
     </curso>
     <curso id="ERTE">
       <titulo>Intervención En El Ámbito Comunitario (FC0A07)</titulo>
-      <etiquetas>Teleformación , Teleformación , Teleformación desempleados que hayan estado en
-        ERTE.</etiquetas>
+      <etiquetas>Teleformación , Teleformación , desempleados que hayan estado en ERTE.</etiquetas>
       <foto>Erte.png</foto>
       <temario>Temario/intervencion_ambito_comunitario.pdf</temario>
       <inicio>20/02/2023</inicio>
@@ -101,9 +95,7 @@
     </curso>
     <curso id="ADA">
       <titulo>Actic (Búsqueda de información y creación de contenidos)</titulo>
-      <etiquetas>Presencial , Plan de Recuperación , Transformación i Resiliència , Financiado por
-        la Unión Europea ,
-        SOC , NextGenerationEU , TIC , Itinerario con tres cursos</etiquetas>
+      <etiquetas>Presencial , Plan de Recuperación , Transformación i Resiliència , Financiado por la Unión Europea , SOC , NextGenerationEU , TIC , Itinerario con tres cursos</etiquetas>
       <foto>Mujeres.png</foto>
       <temario>Temario/actic_ada.pdf</temario>
       <inicio>20/12/2022</inicio>
@@ -117,9 +109,7 @@
     </curso>
     <curso id="ADA">
       <titulo>Aplicaciones móviles y gestores de contenido</titulo>
-      <etiquetas>Presencial , Plan de Recuperación , Transformación i Resiliència , Financiado por
-        la Unión Europea ,
-        SOC , NextGenerationEU , TIC , Itinerario con dos cursos</etiquetas>
+      <etiquetas>Presencial , Plan de Recuperación , Transformación i Resiliència , Financiado por la Unión Europea , SOC , NextGenerationEU , TIC , Itinerario con dos cursos</etiquetas>
       <foto>Mujeres.png</foto>
       <temario>Temario/ada_moviles.pdf</temario>
       <inicio>20/12/2022</inicio>
@@ -133,9 +123,7 @@
     </curso>
     <curso id="ADA">
       <titulo>Herramientas digitales en la nube</titulo>
-      <etiquetas>Presencial , Plan de Recuperación , Transformación i Resiliència , Financiado por
-        la Unión Europea ,
-        SOC , NextGenerationEU , TIC , Itinerario con dos cursos</etiquetas>
+      <etiquetas>Presencial , Plan de Recuperación , Transformación i Resiliència , Financiado por la Unión Europea , SOC , NextGenerationEU , TIC , Itinerario con dos cursos</etiquetas>
       <foto>Mujeres.png</foto>
       <temario>Temario/ada_nube.pdf</temario>
       <inicio>20/12/2022</inicio>
@@ -149,9 +137,7 @@
     </curso>
     <curso id="ADA">
       <titulo>Competencia digital básica para la ocupación</titulo>
-      <etiquetas>Presencial , Plan de Recuperación , Transformación i Resiliència , Financiado por
-        la Unión Europea ,
-        SOC , NextGenerationEU , TIC , Itinerario con dos cursos</etiquetas>
+      <etiquetas>Presencial , Plan de Recuperación , Transformación i Resiliència , Financiado por la Unión Europea , SOC , NextGenerationEU , TIC , Itinerario con dos cursos</etiquetas>
       <foto>Mujeres.png</foto>
       <temario>Temario/ada_competencias.pdf</temario>
       <inicio>19/12/2022</inicio>
@@ -211,8 +197,7 @@
     </curso>
     <curso id="FOAP">
       <titulo>Desarrollo de aplicaciones con tecnologías web(IFCD0210)</titulo>
-      <etiquetas>Presencial , SOC , Certificado de Profesionalidad , Informática y Comunicaciones ,
-        3 Módulos</etiquetas>
+      <etiquetas>Presencial , SOC , Certificado de Profesionalidad , Informática y Comunicaciones , 3 Módulos</etiquetas>
       <foto>Desempleados.png</foto>
       <temario>Temario/IFCD0210_ficha.pdf</temario>
       <inicio>Enero 2023</inicio>
@@ -258,8 +243,7 @@
     </curso>
     <curso id="FOAP">
       <titulo>Venta de productos y servicios turísticos (HOTG0208)</titulo>
-      <etiquetas>Presencial , SOC , Certificado de Profesionalidad , Hostelería y turismo , 4
-        Módulos</etiquetas>
+      <etiquetas>Presencial , SOC , Certificado de Profesionalidad , Hostelería y turismo , 4 Módulos</etiquetas>
       <foto>Desempleados.png</foto>
       <temario>Temario/HOTG0208_ficha.pdf</temario>
       <inicio>Enero 2023</inicio>
@@ -274,8 +258,7 @@
     </curso>
     <curso id="TFOAP">
       <titulo>Gestión Comercial De Ventas (COMT0411)</titulo>
-      <etiquetas>Teleformación , SOC , Certificado de Profesionalidad , Comercio y Márketing , 5
-        Módulos</etiquetas>
+      <etiquetas>Teleformación , SOC , Certificado de Profesionalidad , Comercio y Márketing , 5 Módulos</etiquetas>
       <foto>Teleformacion.png</foto>
       <temario>Temario/COMT0411_ficha.pdf</temario>
       <inicio>Enero-Febreo 2023</inicio>
@@ -292,8 +275,7 @@
     </curso>
     <curso id="TFOAP">
       <titulo>Actividades administrativas en la relación con el cliente (ADGG0208)</titulo>
-      <etiquetas>Teleformación , SOC , Certificado de Profesionalidad , Administración y Gestión , 6
-        Módulos</etiquetas>
+      <etiquetas>Teleformación , SOC , Certificado de Profesionalidad , Administración y Gestión , 6 Módulos</etiquetas>
       <foto>Teleformacion.png</foto>
       <temario>Temario/ADGG0208_ficha.pdf</temario>
       <inicio>Enero-Febreo 2023</inicio>
@@ -311,8 +293,7 @@
     </curso>
     <curso id="TFOAP">
       <titulo>Promoción turística local e información al visitante (HOTI0108)</titulo>
-      <etiquetas>Teleformación , SOC , Certificado de Profesionalidad , Hostelería y turismo , 4
-        Módulos</etiquetas>
+      <etiquetas>Teleformación , SOC , Certificado de Profesionalidad , Hostelería y turismo , 4 Módulos</etiquetas>
       <foto>Teleformacion.png</foto>
       <temario>Temario/ficha_HOTI0108.pdf</temario>
       <inicio>Enero-Febreo 2023</inicio>
@@ -342,14 +323,7 @@
     </curso>
     <curso id="INGLES">
       <titulo>Preparación de First B2 | Tardes</titulo>
-      <etiquetas>
-        <etiqueta>Curso Intensivo</etiqueta>
-        <etiqueta>Privado</etiqueta>
-        <etiqueta>Viernes</etiqueta>
-        <etiqueta>10 semanas</etiqueta>
-        <etiqueta>30h</etiqueta>
-        <etiqueta>Grupos reducidos</etiqueta>
-      </etiquetas>
+      <etiquetas>Curso Intensivo , Privado , Viernes , 10 semanas , 30h , Grupos reducidos </etiquetas>
       <subt>Curso de preparación al FCE (First).</subt>
       <info>Curso dirigido por examinadores oficiales de Cambridge, incluye la preparación de las
         cinco competencias necesarias para superar el examen. También en modalidad por papel.
@@ -362,17 +336,9 @@
     </curso>
     <curso id="INGLES">
       <titulo>Preparación de First B2 | Mañanas</titulo>
-      <etiquetas>
-        <etiqueta>Curso Intensivo</etiqueta>
-        <etiqueta>Privado</etiqueta>
-        <etiqueta>Sábados</etiqueta>
-        <etiqueta>5 semanas</etiqueta>
-        <etiqueta>20h</etiqueta>
-        <etiqueta>Grupos reducidos</etiqueta>
-      </etiquetas>
+      <etiquetas>Curso Intensivo , Privado , Sábados , 5 semanas , 20h , Grupos reducidos</etiquetas>
       <subt>Curso de preparación al FCE (First).</subt>
-      <info>Curso dirigido por examinadores oficiales de Cambridge, incluye la preparación de las
-        cinco competencias necesarias para superar el examen. También en modalidad por ordenador.
+      <info>Curso dirigido por examinadores oficiales de Cambridge, incluye la preparación de las cinco competencias necesarias para superar el examen. También en modalidad por ordenador.
         Preparación especial para el examen del día 10/12/2022 (CB).</info>
       <inicio>01/10/2022</inicio>
       <fin>29/10/2022</fin>
@@ -383,17 +349,10 @@
     <curso id="INGLES">
       <titulo>Preparación de First B2 | Mañanas</titulo>
       <etiquetas>
-        <etiqueta>Curso Intensivo</etiqueta>
-        <etiqueta>Privado</etiqueta>
-        <etiqueta>Sábados</etiqueta>
-        <etiqueta>10 semanas</etiqueta>
-        <etiqueta>40h</etiqueta>
-        <etiqueta>Grupos reducidos</etiqueta>
-      </etiquetas>
+        Curso Intensivo , Privado , Sábados , 10 semanas , 40h , Grupos reducidos </etiquetas>
       <subt>Curso de preparación al FCE (First).</subt>
       <info>Curso dirigido por examinadores oficiales de Cambridge, incluye la preparación de las
-        cinco competencias necesarias para superar el examen. También en modalidad por ordenador.
-        Preparación especial para el examen del día 10/12/2022 (CB).</info>
+        cinco competencias necesarias para superar el examen. También en modalidad por ordenador. Preparación especial para el examen del día 10/12/2022 (CB).</info>
       <inicio>01/10/2022</inicio>
       <fin>03/12/2022</fin>
       <horario>Sábados de 09:00 a 13:00h</horario>
@@ -403,13 +362,7 @@
     <curso id="INGLES">
       <titulo>Preparación de CAE C1 | Mañanas</titulo>
       <etiquetas>
-        <etiqueta>Curso Intensivo</etiqueta>
-        <etiqueta>Privado</etiqueta>
-        <etiqueta>Sábados</etiqueta>
-        <etiqueta>5 semanas</etiqueta>
-        <etiqueta>15h</etiqueta>
-        <etiqueta>Grupos reducidos</etiqueta>
-      </etiquetas>
+        Curso Intensivo , Privado , Sábados , 5 semanas , 15h , Grupos reducidos </etiquetas>
       <subt>Curso de preparación al FCE (First).</subt>
       <info>Curso dirigido por examinadores oficiales de Cambridge, incluye la preparación de las
         cinco competencias necesarias para superar el examen. También en modalidad por ordenador.
@@ -423,13 +376,7 @@
     <curso id="INGLES">
       <titulo>Preparación de CAE C1 | Mañanas</titulo>
       <etiquetas>
-        <etiqueta>Curso Intensivo</etiqueta>
-        <etiqueta>Privado</etiqueta>
-        <etiqueta>Sábados</etiqueta>
-        <etiqueta>10 semanas</etiqueta>
-        <etiqueta>30h</etiqueta>
-        <etiqueta>Grupos reducidos</etiqueta>
-      </etiquetas>
+        Curso Intensivo , Privado , Sábados , 10 semanas , 30h , Grupos reducidos </etiquetas>
       <subt>Curso de preparación al FCE (First).</subt>
       <info>Curso dirigido por examinadores oficiales de Cambridge, incluye la preparación de las
         cinco competencias necesarias para superar el examen. También en modalidad por ordenador.
@@ -443,13 +390,7 @@
     <curso id="INGLES">
       <titulo>Preparación de CAE C1 | Mañanas</titulo>
       <etiquetas>
-        <etiqueta>Curso Intensivo</etiqueta>
-        <etiqueta>Privado</etiqueta>
-        <etiqueta>Sábados</etiqueta>
-        <etiqueta>5 semanas</etiqueta>
-        <etiqueta>20h</etiqueta>
-        <etiqueta>Grupos reducidos</etiqueta>
-      </etiquetas>
+        Curso Intensivo , Privado , Sábados , 5 semanas , 20h , Grupos reducidos </etiquetas>
       <subt>Curso de preparación al FCE (First).</subt>
       <info>Curso dirigido por examinadores oficiales de Cambridge, incluye la preparación de las
         cinco competencias necesarias para superar el examen. También en modalidad por ordenador.
@@ -463,13 +404,7 @@
     <curso id="INGLES">
       <titulo>Preparación de CAE C1 | Mañanas</titulo>
       <etiquetas>
-        <etiqueta>Curso Intensivo</etiqueta>
-        <etiqueta>Privado</etiqueta>
-        <etiqueta>Sábados</etiqueta>
-        <etiqueta>10 semanas</etiqueta>
-        <etiqueta>40h</etiqueta>
-        <etiqueta>Grupos reducidos</etiqueta>
-      </etiquetas>
+        Curso Intensivo , Privado , Sábados , 10 semanas , 40h , Grupos reducidos </etiquetas>
       <subt>Curso de preparación al FCE (First).</subt>
       <info>Curso dirigido por examinadores oficiales de Cambridge, incluye la preparación de las
         cinco competencias necesarias para superar el examen. También en modalidad por ordenador.
