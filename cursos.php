@@ -10,54 +10,54 @@
 </head>
 
 <body>
-  <div class="cabecera_subhome">
-    <div class="contenedor_imagen_subhome">
+  <div class="contenedor_imagen_subhome">
+    <a href="./index.php">
       <img src="logo.png" class="imagen_subhome">
-    </div>
+    </a>
   </div>
   <div class="subtitulo"><img id="subFoto" src="fraseIns.png">
   </div>
 
   <?php
 
-    $xml = simplexml_load_file("cursos.xml");
-    $listaConvocatorias = $xml->xpath("/web/convocatorias/convocatoria[@nom!='INGLES']");
+  $xml = simplexml_load_file("cursos.xml");
+  $listaConvocatorias = $xml->xpath("/web/convocatorias/convocatoria[@nom!='INGLES']");
 
-    foreach ($listaConvocatorias as $convocatoria) {
+  foreach ($listaConvocatorias as $convocatoria) {
 
-        $nombreConvocatoria = $convocatoria->nombre;
-        $nom = $convocatoria['nom'];
-        $fondoConvocatoria = $convocatoria->fondo;
-        $convocatoriaConvocatoria = $convocatoria->informacion;
-        $logoConvocatoria = $convocatoria->logo;
-        $preinscripcionConvocatoria = $convocatoria->preinscripcion;
+    $nombreConvocatoria = $convocatoria->nombre;
+    $nom = $convocatoria['nom'];
+    $fondoConvocatoria = $convocatoria->fondo;
+    $convocatoriaConvocatoria = $convocatoria->informacion;
+    $logoConvocatoria = $convocatoria->logo;
+    $preinscripcionConvocatoria = $convocatoria->preinscripcion;
 
-        $listaCursos = $xml->xpath("/web/cursos/curso[@id='" . $nom . "']");
-    ?>
+    $listaCursos = $xml->xpath("/web/cursos/curso[@id='" . $nom . "']");
+  ?>
   <div class="titulo_subhome">
 
     <h1 class="titulo_principal"><?= $nombreConvocatoria ?></u></h1>
   </div>
   <?php
-        foreach ($listaCursos as $cursos) {
-            $tituloCursos = $cursos->titulo;
-            $inicioCursos = $cursos->inicio;
-            $finCursos = $cursos->fin;
-            $horarioCursos = $cursos->horario;
-            $mod1Cursos = $cursos->modulos->mod1;
-            $mod2Cursos = $cursos->modulos->mod2;
-            $mod3Cursos = $cursos->modulos->mod3;
-            $temarioCursos = $cursos->temario;
+    foreach ($listaCursos as $cursos) {
+      $tituloCursos = $cursos->titulo;
+      $inicioCursos = $cursos->inicio;
+      $finCursos = $cursos->fin;
+      $horarioCursos = $cursos->horario;
+      $mod1Cursos = $cursos->modulos->mod1;
+      $mod2Cursos = $cursos->modulos->mod2;
+      $mod3Cursos = $cursos->modulos->mod3;
+      $temarioCursos = $cursos->temario;
 
-            $etiquetaFinal = "";
-            $listaEtiquetas = explode(",", $cursos->etiquetas);
-            foreach ($listaEtiquetas as $etiqueta) {
+      $etiquetaFinal = "";
+      $listaEtiquetas = explode(",", $cursos->etiquetas);
+      foreach ($listaEtiquetas as $etiqueta) {
 
-                $etiquetaFinal = $etiquetaFinal . "<div class='etiq' >$etiqueta</div>";
-            }
+        $etiquetaFinal = $etiquetaFinal . "<div class='etiq' >$etiqueta</div>";
+      }
 
 
-        ?>
+    ?>
   <div id='contenedor_cursos1' style="background-color:<?= $fondoConvocatoria ?>;">
     <div class='item1'>
       <h1><?= $tituloCursos ?></h1>
@@ -80,9 +80,9 @@
   </div>
   <br><br>
   <?php
-        }
     }
-    ?>
+  }
+  ?>
 
 </body>
 

@@ -12,7 +12,9 @@
   <div class="cabecera_subhome">
 
     <div class="contenedor_imagen_subhome">
-      <img src="logo.png" class="imagen_subhome">
+      <a href="./index.php">
+        <img src="logo.png" class="imagen_subhome">
+      </a>
     </div>
   </div>
   <div class="subtitulo"><img id="subFoto" src="fraseIns.png">
@@ -20,16 +22,16 @@
 
   <?php
 
-    $xml = simplexml_load_file("cursos.xml");
-    $listaConvocatorias = $xml->xpath("/web/convocatorias/convocatoria");
+  $xml = simplexml_load_file("cursos.xml");
+  $listaConvocatorias = $xml->xpath("/web/convocatorias/convocatoria");
 
-    foreach ($listaConvocatorias as $convocatoria) {
+  foreach ($listaConvocatorias as $convocatoria) {
 
-        $nombreConvocatoria = $convocatoria->nombre;
-        $nom = $convocatoria['nom'];
-        $convocatoriaConvocatoria = $convocatoria->informacion;
+    $nombreConvocatoria = $convocatoria->nombre;
+    $nom = $convocatoria['nom'];
+    $convocatoriaConvocatoria = $convocatoria->informacion;
 
-    ?>
+  ?>
 
   <div id="contenedorIndex">
     <div class="item20">
@@ -39,15 +41,15 @@
 
     <?php
 
-            $listaCursos = $xml->xpath("/web/cursos/curso[@id='" . $nom . "']");
-            $i = 0;
-            foreach ($listaCursos as $cursos) {
-                $tituloCursos = $cursos->titulo;
-                $fotoCursos = $cursos->foto;
-                $i++;
-                if ($i < 7) {
-                    $item = "item2" . $i;
-            ?>
+      $listaCursos = $xml->xpath("/web/cursos/curso[@id='" . $nom . "']");
+      $i = 0;
+      foreach ($listaCursos as $cursos) {
+        $tituloCursos = $cursos->titulo;
+        $fotoCursos = $cursos->foto;
+        $i++;
+        if ($i < 7) {
+          $item = "item2" . $i;
+      ?>
     <div class="<?= $item ?>">
       <div class="item211"><img class="imagenCurso" src="<?= $fotoCursos ?>"></div>
       <div class="item212"><?= $tituloCursos ?><br>
@@ -56,15 +58,15 @@
       <div class="item213"><?= $nombreConvocatoria ?></div>
     </div>
     <?php
-                }
-            }
-            ?>
+        }
+      }
+      ?>
   </div>
   <br><br>
   <?php
 
-    }
-    ?>
+  }
+  ?>
 
 </body>
 
