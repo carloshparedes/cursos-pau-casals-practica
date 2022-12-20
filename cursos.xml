@@ -6,21 +6,21 @@
       <informacion>Cursos subvencionados dirigidos únicamente a desempleados que hayan estado en
         ERTE.</informacion>
       <fondo>#bcd3e7</fondo>
-      <logo>erte.png</logo>
+      <logo>sepe.png</logo>
       <preinscripcion>formulario.html</preinscripcion>
     </convocatoria>
     <convocatoria nom="ADA">
       <nombre>Cursos 100% subvencionados para mujeres desempleadas</nombre>
       <informacion>prioritariamente para mujeres desempleadas o 70% desempleadas | 30% trabajadoras</informacion>
       <fondo>#E5C6E7</fondo>
-      <logo>Ada.png</logo>
+      <logo>fotoSubv.png</logo>
       <preinscripcion>formulario.html</preinscripcion>
     </convocatoria>
     <convocatoria nom="FOAP">
       <nombre>Certificados de profesionalidad 100% subvencionados para desempleados</nombre>
       <informacion>Curso subvencionado por el SOC dirigido a personas desempleadas</informacion>
       <fondo>#b7f6f2</fondo>
-      <logo>Desempleados.png</logo>
+      <logo>sepe.png</logo>
       <preinscripcion>formulario.html</preinscripcion>
     </convocatoria>
     <convocatoria nom="TFOAP">
@@ -28,7 +28,7 @@
         Teleformación.</nombre>
       <informacion>Curso subvencionado por el SOC dirigido a personas desempleadas</informacion>
       <fondo>#B7DBF6</fondo>
-      <logo>teleformacion.png</logo>
+      <logo>sepe.png</logo>
       <preinscripcion>formulario.html</preinscripcion>
     </convocatoria>
     <convocatoria nom="INGLES">

@@ -76,7 +76,14 @@
     <div class='item6'><b>Horarios:</b><?= $horarioCursos ?></div>
     <div class='item7'><?= $convocatoriaConvocatoria ?></div>
     <div class='item8'><img id="logoUE" src=<?= $logoConvocatoria ?>></div>
-    <div class='item9'><b>Módulos: </b><br><?= $mod1Cursos . '<br>' . $mod2Cursos . '<br>' . $mod3Cursos ?></div>
+
+    <?php
+
+        $modulo = "";
+        ($mod1Cursos == "" and $mod2Cursos == "" and $mod3Cursos == "") ? $modulo = "" : $modulo = "<b>Módulos:
+      </b><br> $mod1Cursos <br> $mod2Cursos <br> $mod3Cursos";
+        ?>
+    <div class='item9'><?= $modulo ?></div>
     <div class='item10'><button id="temarioBoton"><a class="enlace_sepe"
           href="https://www.paucasals.com/documentos/<?= $temarioCursos ?>" target="_blank">Temario</a></button>
     </div>
