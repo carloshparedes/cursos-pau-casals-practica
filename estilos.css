@@ -2,21 +2,27 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
-
-    
 /* Contenedor cabecera */
+.imagen_subhome{
+    width: 100%;
+   }
 
 #navegadorEnlaces{
     border-collapse:separate; 
     text-align:center;
-    border:1px solid black;
+    font-size: medium;
     width:100%;
     border-spacing:20px 10px;
+    
+    
 }
 
 .cabecera_subhome{
     width:100%;
+    text-decoration: none;
+    color: black;
     
 } 
 
@@ -35,7 +41,7 @@
     width:95%;
 }
 #contenedor_cursos1{
-    width:80%;
+    width:90%;
     margin:0 auto;
     border-radius:20px;
     display:grid;
@@ -124,10 +130,13 @@
     margin-bottom:5px;            
 }
 #temarioBoton{
-    font-size:25px;
+    width: 100px;
+    height: auto;
+    font-size:20px;
     background-color:#558eb7;
-    border-radius:15px;
-    padding:3 8 3 8;
+    border-radius:10px;
+    padding: 4 9 4 9;
+    
 }
 .enlace_sepe{
     text-decoration:none;
@@ -251,6 +260,7 @@
 }
 
 /* EMPIEZA CONFIGURACIÓN DE INDEX.PHP */
+
 #contenedorIndex {
 
     width: 90%;
@@ -424,4 +434,170 @@
     margin-right: 50%;
 }
 
+#enlaceIndex{
+text-decoration: none;
+font-weight: bolder;
+color: black;
+}
 
+#enlaceCursos{
+text-decoration: none;
+font-weight: bolder;
+color: black; }
+    
+#enlaceIdiomas{
+text-decoration: none;
+font-weight: bolder;
+color: black;
+ }
+ 
+
+ #enlaceIndex:hover{
+    color:#2E81C8;
+    font-size: large;
+    }
+#enlaceCursos:hover{
+        color:#2E81C8;
+        
+        font-size: large;
+    }
+        
+#enlaceIdiomas:hover{
+        color:#2E81C8;
+        font-size: large;
+     }
+
+
+     @media screen and (max-width:900px) {
+        #contenedorIndex{
+       grid-template-columns: 50%, 50%;
+       grid-template-areas: 'it20 it20'
+           'it21 it22'
+           'it23 it24'
+           'it25 it26'
+       ;}
+       #contenedor_cursos1{
+       grid-template-columns: 50% 50%;
+       grid-template-areas:'it1 it1'
+           'it2 it2'
+           'it3 it3'
+           'it4 it4'
+           'it5 it5'
+           'it6 it6'
+           'it7 it7'
+           'it8 it8'
+           'it9 it9'
+           'it10 it10';
+   }
+       .etiq{
+       padding:1px;
+       margin:2px 4px;
+       border-radius:3px;
+   }
+           #logoUE{
+           display: none;}
+       #botonPre{
+       font-size:20px;
+       border-radius:10px;
+       }
+           #temarioBoton{
+       font-size:20px;
+     
+       border-radius:10px;
+       
+   }
+       #contenedor_ingles1{
+       padding: 20px;
+       
+       
+       border-radius: 15px;
+       width:80%;
+       grid-template-columns: 50% 50%;
+       grid-template-areas:'it11 it12'
+                           'it13 it12'
+                           'it14 it12'
+                           'it15 it16'
+                           'it17 it17'
+                           'it18 it19'
+                           ;
+   }
+       .etiq2{
+       
+       margin:2px 10px 2px 10px;
+       
+       
+       font-size:20px;
+   }
+   }
+   @media screen and (max-width:500px) {
+   
+       #contenedorIndex{
+           grid-template-columns: 100%;
+           grid-template-areas: 'it20'
+           'it21'
+           'it22'
+           'it23'
+           'it24'
+           'it25'
+           'it26'
+       ;}
+       #contenedor_cursos1{
+       grid-template-columns: 100%;
+       grid-template-areas:'it1'
+           'it2'
+           'it3'
+           'it4'
+           'it5'
+           'it6'
+           'it7'
+           'it8'
+           'it9'
+           'it10';
+   }
+       .etiq{
+       padding:0px;
+       margin:2px 2px;
+       border-radius:2px;
+   }
+       #logoUE{/*visibility: hidden;*/
+           display: none;}
+       #botonPre{
+       font-size:15px;
+       
+       border-radius:10px;
+   }
+         #temarioBoton{
+       font-size:18px;
+     
+       border-radius:10px;
+       
+   }
+       #contenedor_ingles1{
+       padding: 10px;
+       
+       
+       border-radius: 10px;
+       width:80%;
+       grid-template-columns: 100%;
+       grid-template-areas:'it11'
+                           'it13'
+                           'it14'
+                           'it15'
+                           'it16'
+                           'it17'
+                           'it18'
+                           'it19'
+                           ;
+   }
+       #logoCambr{
+           display: none;}
+        .etiq2{
+       
+       margin:2px 10px 2px 10px;
+       
+       
+       font-size:20px;
+   }
+   }
+   
+   

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="estilos.css">
   <title>Cursos</title>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,9 +18,9 @@
             <img src="logo.png" class="imagen_subhome">
           </a>
         </td>
-        <td id="enlaceIndex" style="width:20%"><a href="./index.php">Home</a></td>
-        <td id="enlaceCursos" style="width:20%"><a href="./cursos.php">Cursos</a></td>
-        <td id="enlaceIdiomas" style="width:20%"><a href="./idiomas.php">Idiomas</a></td>
+        <td  style="width:20%"><a id="enlaceIndex" href="./index.php">Home</a></td>
+        <td  style="width:20%"><a id="enlaceCursos" href="./cursos.php">Cursos</a></td>
+        <td  style="width:20%"><a id="enlaceIdiomas" href="./idiomas.php">Idiomas</a></td>
       </tr>
     </table>
   </div>
